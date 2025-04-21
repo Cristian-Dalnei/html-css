@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px auto;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+            border-radius: 5px;
+            max-width: 900px;
+        }
+
+        nav{
+            background-color: lightgrey;
+            padding: 5px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);  
+                   
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        nav > a:hover{
+            color: rgb(255, 255, 255);
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px auto;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+            border-radius: 5px;
+            max-width: 1000px;
+        }
+
+        article{
+            background-color: rgb(156, 156, 156);
+        }
+
+        article > aside{
+            background-color: lightgray;
+        }
+
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 5px 0px ;
+
+        }
+
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut placeat dicta quos dolor ex, dolores aliquam ipsum nihil voluptate velit non laboriosam temporibus ratione laborum facere perferendis. Delectus, repudiandae?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h1>Meu primeiro dia</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ducimus a, vero excepturi odio tempore repellendus quas voluptatibus expedita velit quasi illo eos non maiores est rem! Aspernatur, qui quos?</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Cristian Dalnei</p>
+    </footer>
+</body>
+</html>

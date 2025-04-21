@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        
+        a:active{
+            color: yellow;
+        }
+
+        a::before{
+            content: '⇒';
+        }
+
+        a::after{
+            content: '⇐';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/_liimacris/" target="_blank" rel="external">Instagram</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=61563254663712&locale=pt_BR" target="_blank" rel="external">Facebook</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="external">Yotube</a></li>
+    </ul>
+</body>
+</html>
